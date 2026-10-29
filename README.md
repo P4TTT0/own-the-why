@@ -24,6 +24,13 @@ In those moments the agent:
 
 It never applies to operational work: commits, statuses, commands, lookups. Every question is answerable in one line, at most one per message, and never a quiz. Say **"skip"** to answer normally for that moment.
 
+## How it differs
+
+- **Claude Code's built-in `Learning` output style** leaves `TODO(human)` spots for you to write code. `own-the-why` does not hand you code to write; it asks for your hypothesis and your reason before the AI's, so its answer does not anchor yours.
+- **Socratic mentoring skills** (like [`mentoring-juniors`](https://github.com/github/awesome-copilot)) guide with questions and never give the answer. `own-the-why` always gives the answer, at full speed, and only pauses for one line in three moments.
+- **Drill and quiz skills** (like `socratic-drill`) test you on a subject. `own-the-why` never quizzes: a question either produces a hypothesis or a decision.
+- **Course-style skills** (like [`teach`](https://github.com/mattpocock/skills)) build lessons to learn a topic over several sessions. `own-the-why` runs inside your everyday work, not as a separate study session.
+
 ## Install
 
 ### Any agent (skills CLI)
