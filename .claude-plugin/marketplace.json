@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "own-the-why",
+  "description": "Keep thinking while working fast with AI. Your hypothesis and your reason come before the AI's.",
+  "owner": {
+    "name": "Patricio Perez Cardenal"
+  },
+  "plugins": [
+    {
+      "name": "own-the-why",
+      "description": "Keeps you thinking in the moments that matter while the rest of the work stays fast.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

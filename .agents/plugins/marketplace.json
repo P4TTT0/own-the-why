@@ -1,0 +1,21 @@
+{
+  "name": "own-the-why",
+  "interface": {
+    "displayName": "Own the Why"
+  },
+  "plugins": [
+    {
+      "name": "own-the-why",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/P4TTT0/own-the-why.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

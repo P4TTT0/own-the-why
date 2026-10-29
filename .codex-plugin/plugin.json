@@ -1,0 +1,35 @@
+{
+  "name": "own-the-why",
+  "version": "0.1.0",
+  "description": "Work fast with AI without disconnecting from the concepts: your hypothesis and your reason come before the AI's.",
+  "author": {
+    "name": "Patricio Perez Cardenal",
+    "url": "https://github.com/P4TTT0"
+  },
+  "homepage": "https://github.com/P4TTT0/own-the-why",
+  "repository": "https://github.com/P4TTT0/own-the-why",
+  "license": "MIT",
+  "keywords": [
+    "learning",
+    "output-style",
+    "cognition",
+    "skills",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Own the Why",
+    "shortDescription": "Keep thinking while working fast with AI",
+    "longDescription": "In new concepts, bug root causes and design decisions, Codex asks for your hypothesis or your reason in one line before giving its own, and explains concepts in prose that has to be read. Everything else stays fast.",
+    "developerName": "Patricio Perez Cardenal",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/P4TTT0/own-the-why",
+    "defaultPrompt": [
+      "Use own-the-why for this session.",
+      "Ask for my reasoning before giving yours."
+    ]
+  }
+}
